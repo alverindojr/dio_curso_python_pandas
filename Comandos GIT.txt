@@ -1,0 +1,33 @@
+botão direito do mouse dentro do diretorio, git bash here;
+
+comando git init para iniciarmos o processo com o git
+
+comando git config --global user.email"alverindojr@hotmail.com"
+esse comando é para assinar os arquivos que serao enviados ao git
+
+git config --global user.name alverindojr
+
+git add *
+
+git commit -m "commit inicial"
+
+comando git status
+retorno o status atual (untracked, staged, commited)
+
+***********************************************************
+
+Comandos GitHub:
+
+Criar a pasta no github
+
+Empurrar repositorio local para o github:
+Comando git remote add origin https://github.com/alverindojr/dio_curso_python_pandas.git (aqui é a url que o github dará após criar a pasta)
+
+git remote -v
+comando que mostra para onde está apontado o repositorio local no github
+
+git status 
+verificar se nao tem pendencias locais
+
+git push origin master
+comando para enviar o repositorio local para remoto
